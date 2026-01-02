@@ -4,4 +4,8 @@ node_modules/
 node_modules/.remotion/
 **/.remotion/
 
+# Render outputs
+outputs/
+*.mp4
+
 
