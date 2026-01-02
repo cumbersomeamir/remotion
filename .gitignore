@@ -1,0 +1,7 @@
+node_modules/
+
+# Remotion downloads / caches (includes Chrome Headless Shell binary that breaks GitHub's 100MB limit)
+node_modules/.remotion/
+**/.remotion/
+
+
