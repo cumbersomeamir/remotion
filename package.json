@@ -1,0 +1,34 @@
+{
+  "name": "remotion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "remotion studio",
+    "render:nn-training:vertical": "node scripts/render-vertical.js nn_training nn-training",
+    "render:big-bang:vertical": "node scripts/render-vertical.js big_bang big-bang",
+    "render:galaxy-formation:vertical": "node scripts/render-vertical.js galaxy_formation galaxy-formation",
+    "render:atomic-bonding:vertical": "node scripts/render-vertical.js atomic_bonding atomic-bonding",
+    "render:dna-replication:vertical": "node scripts/render-vertical.js dna_replication dna-replication",
+    "render:evolution:vertical": "node scripts/render-vertical.js evolution evolution",
+    "render:human-civilization:vertical": "node scripts/render-vertical.js human_civilization human-civilization",
+    "render:financial-markets:vertical": "node scripts/render-vertical.js financial_markets financial-markets",
+    "render:human-ai-symbiosis:vertical": "node scripts/render-vertical.js human_ai_symbiosis human-ai-symbiosis"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "remotion": "^4.0.398"
+  },
+  "devDependencies": {
+    "@remotion/bundler": "^4.0.398",
+    "@remotion/cli": "^4.0.398",
+    "@remotion/renderer": "^4.0.398",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
+  }
+}
